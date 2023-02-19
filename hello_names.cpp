@@ -6,5 +6,6 @@ int main()
     string first;
     string second;
     cin >> first >> second;
-    cout << "Hello, " << first << " " << second << "\n";    
+    string name = first + ' ' + second;
+    cout << "Hello, " << name << "\n";    
 }
